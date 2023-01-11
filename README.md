@@ -145,7 +145,8 @@ Contributions, issues, and feature requests are welcome!
 
 I would like to thank Microverse team and their dedicated reviewrs
 
-License <a name="license"></a>
+## 📝 License <a name="license"></a>
+
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
