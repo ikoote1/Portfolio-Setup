@@ -3,7 +3,7 @@
 .toolbar {
   position: absolute;
   width: 375px;
-  height: 92px;
+  height: 46px;
   left: 0;
   top: 0;
   background: #3c3a39;
@@ -13,7 +13,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 44px;
+  top: 0;
   bottom: 0;
 }
 
@@ -32,13 +32,15 @@
 
 .john-doe {
   position: absolute;
+  font-family: 'Crete Round', serif;
   width: 54px;
   height: 15px;
   right: 280px;
-  top: 13px;
+  top: 5px;
   flex: none;
   order: 0;
   flex-grow: 0;
+  color: #fff;
 }
 
 .icon-Menu {
@@ -51,9 +53,10 @@
 
 .illust {
   position: absolute;
+  background-repeat: no-repeat;
   left: 60.37%;
   right: -96.24%;
-  top: 45%;
+  top: 30%;
   bottom: 0.1%;
   color: #fff;
 }
@@ -68,25 +71,26 @@
   width: 327px;
   height: 590px;
   left: 0;
-  top: 92px;
+  top: 46px;
   background: #1c1a19;
 }
 
 h1 {
-  width: 327px;
-  height: 124px;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: red;
+  color: #ff6b00;
+  position: absolute;
+  width: 327px;
+  height: 124px;
+  top: 100px;
+  left: 24px;
 }
 
 h2 {
-  width: 327px;
-  height: 27px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -95,29 +99,40 @@ h2 {
   display: flex;
   align-items: center;
   color: whitesmoke;
+  position: absolute;
+  width: 327px;
+  height: 27px;
+  top: 256px;
+  left: 24px;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 
 .txt {
-  width: 327px;
-  height: 123px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  position: absolute;
+  width: 327px;
+  height: 123px;
+  top: 295px;
+  left: 24px;
   flex: none;
   order: 2;
   flex-grow: 0;
-  color: white;
+  color: #fff;
 }
 
-.micro7 {
+ul {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+  padding: 0;
   position: absolute;
-  left: 0.04%;
-  right: 0.03%;
-  top: 70%;
-  bottom: 0%;
+  background-repeat: no-repeat;
+  top: 430px;
+  left: 24px;
 }
