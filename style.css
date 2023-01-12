@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&display=swap');
+
+.toolbar {
+  position: absolute;
+  width: 375px;
+  height: 46px;
+  left: 0;
+  top: 0;
+  background: #3c3a39;
+}
+
+.tbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
+
+.john-doe {
+  position: absolute;
+  font-family: 'Crete Round', serif;
+  width: 54px;
+  height: 15px;
+  right: 280px;
+  top: 14px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #fff;
+}
+
+.icon-Menu {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 21px;
+  top: 13px;
+}
+
+.illust {
+  background-image: url('./images/Illustration.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 60.37%;
+  right: -96.24%;
+  top: 30%;
+  bottom: 0.1%;
+  color: #fff;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 327px;
+  height: 590px;
+  left: 0;
+  top: 46px;
+  background: #1c1a19;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  position: absolute;
+  width: 327px;
+  height: 124px;
+  top: 100px;
+  left: 24px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+  position: absolute;
+  width: 327px;
+  height: 27px;
+  top: 256px;
+  left: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.txt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  width: 327px;
+  height: 123px;
+  top: 295px;
+  left: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 430px;
+  left: 24px;
+}
