@@ -36,7 +36,7 @@
   width: 54px;
   height: 15px;
   right: 280px;
-  top: 5px;
+  top: 14px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -52,6 +52,7 @@
 }
 
 .illust {
+  background-image: url('./images/Illustration.svg');
   position: absolute;
   background-repeat: no-repeat;
   left: 60.37%;
