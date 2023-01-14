@@ -153,12 +153,12 @@
 
 .multi {
   width: 327px;
-  height: 36px;
+  height: 10px;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 10px;
   display: flex;
   align-items: center;
   color: #091e42;
@@ -178,7 +178,7 @@
 .languages {
   list-style: none;
   position: absolute;
-  top: 300px;
+  top: 315px;
   width: 297px;
   height: 12px;
   display: grid;
@@ -198,7 +198,7 @@ div#frams {
   position: absolute;
   top: 1800px;
   width: 340px;
-  height: 2610px;
+  height: 2600px;
   display: grid;
   grid-template-columns: auto;
   padding: 10px;
@@ -228,7 +228,8 @@ div#frams {
 }
 
 .but:hover {
-  background-color: #e7af87;
+  background: #fff5e1;
+  border: 1px solid #f55800;
 }
 
 .but1 {
@@ -247,7 +248,8 @@ div#frams {
 }
 
 .but1:hover {
-  background-color: #e7af87;
+  background: #fff5e1;
+  border: 1px solid #f55800;
 }
 
 .blackline {
@@ -282,9 +284,8 @@ div#frams {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 44px;
-  bottom: 200px;
   display: flex;
   align-items: center;
   color: #fff;
@@ -292,7 +293,7 @@ div#frams {
   width: 295px;
   height: 81px;
   left: 24px;
-  top: 130px;
+  top: 100px;
 }
 
 .daily1 {
@@ -306,7 +307,7 @@ div#frams {
   width: 295px;
   height: 81px;
   left: 24px;
-  top: 135px;
+  top: 100px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -321,7 +322,7 @@ div#frams {
   padding: 0;
   position: absolute;
   background-repeat: no-repeat;
-  bottom: 55px;
+  bottom: 65px;
   left: 24px;
   width: auto;
   height: 60px;
@@ -388,7 +389,8 @@ div#frams {
 }
 
 .about > div > button:hover {
-  background-color: #e7af87;
+  background: #fff5e1;
+  border: 1px solid #f55800;
 }
 
 .abouts {
@@ -406,19 +408,23 @@ div#frams {
   left: 24px;
 }
 
-.code {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 8px 12px;
-  gap: 12px;
-  width: 281px;
-  height: auto;
+.ord {
   position: absolute;
   top: 800px;
+  text-align: center;
 }
 
-.code > h3 {
+.ord > li {
+  margin: 40px 0;
+}
+
+.ordered {
+  text-align: unset;
+}
+
+.ordered > li {
+  margin: 30px 0;
+  list-style: none;
   width: auto;
   height: 24px;
   font-family: Inter, sans-serif;
@@ -528,7 +534,8 @@ div#frams {
 }
 
 .in-touch:hover {
-  background-color: #e7af87;
+  background: #fff5e1;
+  border: 1px solid #f55800;
 }
 
 #acts {
