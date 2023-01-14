@@ -76,7 +76,7 @@
   background: #1c1a19;
 }
 
-h1 {
+.title-hey {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -91,7 +91,7 @@ h1 {
   left: 24px;
 }
 
-h2 {
+.sub-t {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -148,7 +148,7 @@ h2 {
   width: 327px;
   height: 200px;
   left: 0;
-  top: 1230px;
+  top: 1330px;
 }
 
 .multi {
@@ -176,6 +176,7 @@ h2 {
 }
 
 .languages {
+  list-style: none;
   position: absolute;
   top: 300px;
   width: 297px;
@@ -195,7 +196,7 @@ h2 {
 
 div#frams {
   position: absolute;
-  top: 1700px;
+  top: 1800px;
   width: 340px;
   height: 2610px;
   display: grid;
@@ -204,7 +205,7 @@ div#frams {
 }
 
 .grid-item {
-  background-image: url(./images/Img\ Placeholder\ \(1\) .png);
+  background-image: url(./images/Img\ Placeholders.png);
   font-size: 30;
   height: auto;
   border: none;
@@ -226,6 +227,10 @@ div#frams {
   color: #fff;
 }
 
+.but:hover {
+  background-color: #e7af87;
+}
+
 .but1 {
   position: absolute;
   bottom: 0;
@@ -241,11 +246,22 @@ div#frams {
   color: #fff;
 }
 
+.but1:hover {
+  background-color: #e7af87;
+}
+
+.blackline {
+  position: absolute;
+  align-self: center;
+  left: 29px;
+  top: 1100px;
+}
+
 .img-pp {
   position: absolute;
   align-self: center;
   left: 24px;
-  top: 1100px;
+  top: 1200px;
 }
 
 .myrr {
@@ -259,7 +275,7 @@ div#frams {
   width: 327px;
   height: 83px;
   left: 24px;
-  top: 950px;
+  top: 970px;
 }
 
 .prof {
@@ -297,6 +313,7 @@ div#frams {
 }
 
 .languagess {
+  list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -304,7 +321,7 @@ div#frams {
   padding: 0;
   position: absolute;
   background-repeat: no-repeat;
-  bottom: 60px;
+  bottom: 55px;
   left: 24px;
   width: auto;
   height: 60px;
@@ -334,7 +351,7 @@ div#frams {
   width: 327px;
   height: 1901px;
   left: 0;
-  top: 4400px;
+  top: 4500px;
   background: #1c1a19;
 }
 
@@ -370,16 +387,35 @@ div#frams {
   background: #ff6b00;
 }
 
+.about > div > button:hover {
+  background-color: #e7af87;
+}
+
+.abouts {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  position: absolute;
+  width: 327px;
+  height: 124px;
+  top: 90px;
+  left: 24px;
+}
+
 .code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 14px;
+  padding: 8px 12px;
   gap: 12px;
   width: 281px;
-  height: 40px;
+  height: auto;
   position: absolute;
-  top: 850px;
+  top: 800px;
 }
 
 .code > h3 {
@@ -391,6 +427,41 @@ div#frams {
   font-size: 22px;
   line-height: 43px;
   color: #fff;
+}
+
+.cir {
+  width: 25px;
+  height: 25px;
+}
+
+.ang {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: auto;
+  height: 25.46px;
+}
+
+.angs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: auto;
+  height: 25.46px;
+}
+
+.angss {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: auto;
+  height: 25.46px;
 }
 
 .hed {
@@ -409,7 +480,7 @@ div#frams {
   width: 375px;
   height: 844px;
   left: 0;
-  top: 6540px;
+  top: 6640px;
   border: #fff;
 }
 
@@ -456,6 +527,10 @@ div#frams {
   background: #ff6b00;
 }
 
+.in-touch:hover {
+  background-color: #e7af87;
+}
+
 #acts {
   display: flex;
   flex-direction: column;
@@ -470,6 +545,7 @@ div#frams {
 
 .imag {
   position: absolute;
+  left: 105px;
   bottom: 20px;
 }
 
