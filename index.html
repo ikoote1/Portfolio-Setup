@@ -180,14 +180,28 @@
         </section>
         <section>
             <div class="finishing">
-                <p class="last-r">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+                <div class="last-r">
+                    <p class="last-r1">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+                </div>
+                
                 <form action="/action_page.php" id="acts">
-                    <input type="text" placeholder="Full name" id="nam">
-                    <input type="email" placeholder="email address" id="nam">
-                    <textarea name="enter-t" id="enter-t" cols="30" rows="5">Enter text here</textarea>
+                    <fieldset class="inputs">
+                        <div class="contn">
+                            <input type="text" placeholder="Full name" id="nam" maxlength="30">
+                        </div>
+                       <div class="contn">
+                        <input type="email" placeholder="Email address" id="nam" required>
+                       </div>
+                        
+                        <textarea name="enter-t" id="enter-t" cols="30" rows="5" class="txt-area" maxlength="500">Enter text here</textarea>
+                    </fieldset>
+                       
+
                     <button type="submit" class="in-touch">Get in touch</button>
                 </form>
-               
+    
+            </div>
+            <div class="finishing-2">
                 <ul class="social">
                     <a href="https://github.com/ikoote1"><img src="./images/Vector1.png" alt="github"></a>
                     <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Bmblb4PfaTiGNkcYIq9q9%2BA%3D%3D"><img src="./images/Vector2.png" alt="Linkedln"></a>
@@ -196,7 +210,6 @@
                     <a href="https://messenger.com/preim"><img src="./images/Vector5.png" alt="messenger"></a>
                 </ul>
                 <img src="./images/Shape.png" alt="imag" class="imag">
-    
             </div>
         </section>
        
