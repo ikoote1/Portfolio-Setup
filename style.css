@@ -489,19 +489,20 @@ div#frams {
   top: 6640px;
   border: #fff;
 }
-.last-r{
-  display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 40px;
 
-width: 320px;
-height: 200px;
-position: absolute;
-top: 80px;
-left: 24px;
+.last-r {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 40px;
+  width: 320px;
+  height: 200px;
+  position: absolute;
+  top: 80px;
+  left: 24px;
 }
+
 .last-r1 {
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -510,7 +511,6 @@ left: 24px;
   line-height: 44px;
   color: #172b4d;
   text-align: center;
- 
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -523,22 +523,22 @@ left: 24px;
   padding: 0;
   width: auto;
   height: auto;
-  background-color: #6e635c;
   position: absolute;
   background-repeat: no-repeat;
-  bottom: 40px;
-  left: 80px;
+  bottom: 20px;
+  left: 98px;
 }
 
 .in-touch {
   font-style: normal;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 24px;
   color: #fff;
   border: none;
-  width: 161px;
+  width: 131px;
   height: 48px;
+  padding: 12px;
   background: #ff6b00;
 }
 
@@ -555,58 +555,69 @@ left: 24px;
   align-items: center;
   position: absolute;
   bottom: 30px;
-  left: auto;
-  right: auto;
 }
-.inputs{
+
+.inputs {
   display: flex;
   flex-direction: column;
   gap: 24px;
   border: #f4f5f7;
 }
-#nam{
-  width: 327px;
-height: 48px;
-font-family: Inter, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-color: #979493;
-border: #fff5e1;
 
-flex: none;
-order: 1;
-flex-grow: 0;
+#nam {
+  width: 327px;
+  height: 48px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  border: #fff5e1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
-.contn{
+
+.contn {
   height: 51px;
   width: 327px;
-  left: 0px;
-  right: 0px;
-  top: calc(50% - 48px/2);
+  left: 0;
+  right: 0;
+  top: calc(50% - 48px / 2);
   border: #fff5e1;
   background-color: #979493;
 }
-.txt-area{
+
+.txt-area {
   width: 327px;
-height: 114px;
-flex: none;
-order: 2;
-flex-grow: 0;
-background: #FBF8F7;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-color: #3C3A39;
+  height: 114px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  background: #fbf8f7;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+.footer {
+  position: absolute;
+  width: 375px;
+  height: 77px;
+  left: 0;
+  top: 7490px;
 }
 
 .imag {
   position: absolute;
-  left: 105px;
-  bottom: 20px;
+  left: 120px;
+  bottom: 15px;
+  width: 135px;
+  height: 5px;
 }
 
 .mask {
