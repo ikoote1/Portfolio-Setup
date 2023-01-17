@@ -590,12 +590,12 @@ div#frams {
 }
 
 .txt-area {
+  background: #FBF8F7;
   width: 327px;
   height: 114px;
   flex: none;
   order: 2;
   flex-grow: 0;
-  background: #fbf8f7;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
