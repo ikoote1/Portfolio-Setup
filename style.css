@@ -491,17 +491,26 @@ div#frams {
 }
 
 .last-r {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 40px;
+  width: 320px;
+  height: 200px;
+  position: absolute;
+  top: 80px;
+  left: 24px;
+}
+
+.last-r1 {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 32px;
   line-height: 44px;
   color: #172b4d;
   text-align: center;
-  position: absolute;
-  top: 100px;
-  left: 24px;
-  right: 24px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -514,22 +523,22 @@ div#frams {
   padding: 0;
   width: auto;
   height: auto;
-  background-color: #6e635c;
   position: absolute;
   background-repeat: no-repeat;
-  bottom: 40px;
-  left: 80px;
+  bottom: 15px;
+  left: 98px;
 }
 
 .in-touch {
   font-style: normal;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 24px;
   color: #fff;
   border: none;
-  width: 161px;
+  width: 131px;
   height: 48px;
+  padding: 12px;
   background: #ff6b00;
 }
 
@@ -545,15 +554,78 @@ div#frams {
   padding: 20px;
   align-items: center;
   position: absolute;
-  bottom: 100px;
-  left: 30px;
-  right: 30px;
+  bottom: 30px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: #f4f5f7;
+}
+
+#nam {
+  width: 327px;
+  height: 48px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  border: #fff5e1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.contn {
+  height: 51px;
+  width: 327px;
+  left: 0;
+  right: 0;
+  top: calc(50% - 48px / 2);
+  border: #fff5e1;
+  background-color: #979493;
+}
+
+.txt-area {
+  background: #fbf8f7;
+  width: 327px;
+  height: 114px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+.footer {
+  position: absolute;
+  width: 375px;
+  height: 77px;
+  left: 0;
+  top: 7490px;
 }
 
 .imag {
   position: absolute;
-  left: 105px;
-  bottom: 20px;
+  left: 120px;
+  bottom: 15px;
+  width: 135px;
+  height: 5px;
+}
+
+.imar {
+  position: absolute;
+  width: 100%;
+  top: 5px;
+  height: 5px;
+  background: #dfe1e6;
 }
 
 .mask {
