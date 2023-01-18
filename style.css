@@ -619,12 +619,13 @@ div#frams {
   width: 135px;
   height: 5px;
 }
-.imar{
+
+.imar {
   position: absolute;
   width: 100%;
   top: 5px;
   height: 5px;
-  background: #DFE1E6;
+  background: #dfe1e6;
 }
 
 .mask {
