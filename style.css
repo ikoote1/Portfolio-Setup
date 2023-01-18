@@ -525,7 +525,7 @@ div#frams {
   height: auto;
   position: absolute;
   background-repeat: no-repeat;
-  bottom: 20px;
+  bottom: 15px;
   left: 98px;
 }
 
@@ -618,6 +618,13 @@ div#frams {
   bottom: 15px;
   width: 135px;
   height: 5px;
+}
+.imar{
+  position: absolute;
+  width: 100%;
+  top: 5px;
+  height: 5px;
+  background: #DFE1E6;
 }
 
 .mask {
