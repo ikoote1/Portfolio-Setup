@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(23, 212, 102);
+  background-color: rgb(253, 252, 253);
 }
 
 .t-bar,
@@ -10,7 +10,11 @@ body {
 .but1,
 .but,
 .mask,
-.vector9 {
+.vector9,
+.imar,
+.imag,
+.footer,
+.grid-medd {
   display: none;
 }
 
@@ -157,11 +161,12 @@ body {
 }
 
 .title-med {
+  display: block;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0;
-  gap: 24px;
+  gap: 6%;
   position: absolute;
   width: 70%;
   height: 448px;
@@ -172,7 +177,7 @@ body {
 
 .img-med {
   display: block;
-  width: 60%;
+  width: 57%;
   height: 448px;
 }
 
@@ -230,6 +235,7 @@ div#frams {
 }
 
 .but3 {
+  display: block;
   height: 58px;
   width: 100%;
   position: absolute;
@@ -246,6 +252,32 @@ div#frams {
 
 .daily1 {
   width: 80%;
+}
+
+.grid-item2 > h2,
+.grid-item5 > h2,
+.grid-item3 > h2,
+.grid-item6 > h2 {
+  display: none;
+}
+
+.grid-item2 > div > h2,
+.grid-item5 > div > h2,
+.grid-item3 > div > h2,
+.grid-item6 > div > h2 {
+  display: block;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  width: 295px;
+  height: 81px;
+  left: 24px;
+  top: 100px;
 }
 
 .grid-item1,
@@ -270,7 +302,7 @@ div#frams {
 .about {
   position: absolute;
   width: 100%;
-  height: 1200px;
+  height: 1100px;
   left: 0;
   top: 2600px;
   background: #1c1a19;
@@ -319,10 +351,106 @@ div#frams {
 }
 
 .vector12 {
+  display: block;
   position: absolute;
+  top: 600px;
   width: 70%;
   left: 15%;
   right: 15%;
+}
+
+.ord {
+  top: 700px;
+  width: 70%;
+  left: 15%;
+  right: 15%;
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+  text-align: left;
+}
+
+.mask2 {
+  background-image: url(./images/Frame.png);
+  width: 40%;
+  height: 352.38px;
+  position: absolute;
+  left: 61%;
+  right: -99.81%;
+  top: 90px;
+}
+
+.finish {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  top: 3940px;
+  left: 20px;
+}
+
+.finishing {
+  top: 0;
+  width: 100%;
+  height: 700px;
+}
+
+.last-r {
+  position: absolute;
   top: 50px;
-  height: 7px;
+  width: 20%;
+  left: 20%;
+  height: 200px;
+}
+
+.finishing > div > p {
+  text-align: left;
+}
+
+.finishing > div > form {
+  position: absolute;
+  top: 50px;
+  width: 50%;
+  right: 10%;
+}
+
+#nam {
+  width: 600px;
+}
+
+.contn {
+  width: 600px;
+}
+
+.txt-area {
+  width: 600px;
+}
+
+.in-touch {
+  position: absolute;
+  left: 110px;
+  top: 320px;
+}
+
+.social2 {
+  display: block;
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+  padding: 0;
+  width: 20%;
+  height: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  bottom: 25px;
+  left: 40%;
+  right: 40%;
+}
+
+.vector13 {
+  display: block;
+  position: absolute;
+  bottom: 90px;
+  width: 98%;
+  left: 1%;
+  right: 1%;
 }

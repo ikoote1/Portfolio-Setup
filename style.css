@@ -12,7 +12,14 @@
 .menu-med,
 .illust-med,
 .img-med,
-.vector12 {
+.vector12,
+.social2,
+.vector13,
+.grid-item2 > div > h2,
+.grid-item5 > div > h2,
+.grid-item3 > div > h2,
+.grid-item6 > div > h2,
+.title-med {
   display: none;
 }
 
