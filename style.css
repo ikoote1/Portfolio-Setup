@@ -8,7 +8,11 @@
   top: 0;
   background: #3c3a39;
 }
-.menu-med, .illust-med{
+
+.menu-med,
+.illust-med,
+.img-med,
+.vector12 {
   display: none;
 }
 
@@ -207,7 +211,12 @@ div#frams {
   padding: 10px;
 }
 
-.grid-item {
+.grid-item1,
+.grid-item2,
+.grid-item3,
+.grid-item4,
+.grid-item5,
+.grid-item6 {
   background-image: url(./images/Img\ Placeholders.png);
   font-size: 30;
   height: auto;
@@ -228,6 +237,10 @@ div#frams {
   line-height: 24px;
   border: none;
   color: #fff;
+}
+
+.but3 {
+  display: none;
 }
 
 .but:hover {
@@ -267,6 +280,10 @@ div#frams {
   align-self: center;
   left: 24px;
   top: 1200px;
+}
+
+.img-med {
+  display: none;
 }
 
 .myrr {
