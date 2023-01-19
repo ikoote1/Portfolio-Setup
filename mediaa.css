@@ -1,0 +1,132 @@
+body{
+    background-color: blue;
+}
+
+.t-bar,.illust, .toolbar{
+    display: none;
+}
+.menu-med{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    background: #3c3a39;
+    padding: 3px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 46px
+}
+.all-about{
+    display: flex;
+    align-items: center;
+padding: 0px 0px;
+gap: 24px;
+height: 40px;
+position: absolute;
+top: 10px;
+left: 70%;
+
+}
+.all-about>a{
+    font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.icon-med{
+width: 22px;
+height: 18px;
+}
+.john-med{
+    
+width: 92px;
+height: 20px;
+
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+position: absolute;
+top: 15px;
+left: 10%;
+}
+.headline{
+    width: 100%;
+    height: 760px;
+    position: absolute;
+    top: 0;
+}
+.illust-med{
+    display: block;
+    background-image: url(./images/Illustration-header.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 59.74%;
+    right: 0;
+    top: 7.3%;
+    bottom: -11.63%;
+}
+.head-med{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 192px 0px;
+gap: 24px;
+
+position: absolute;
+width: 566px;
+height: 739px;
+left: 10%;
+top: 72px;
+}
+.title-hey{
+    font-size: 72px;
+    line-height: 82px;
+    width: 566px;
+    height: 160px;
+    top: 192px;
+}
+.sub-t{
+    width: 566px;
+height: 24px;
+
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 44px;
+top: 390px;
+}
+.txt{
+    width: 566px;
+    height: 123px;
+
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color: #F4F5F7;
+position: absolute;
+top: 434px;
+}
+.ulul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 394px;
+    left: 36px;
+}
