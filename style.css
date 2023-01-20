@@ -15,11 +15,8 @@
 .vector12,
 .social2,
 .vector13,
-.grid-item2 > div > h2,
-.grid-item5 > div > h2,
-.grid-item3 > div > h2,
-.grid-item6 > div > h2,
-.title-med {
+.title-med,
+.but3 {
   display: none;
 }
 
@@ -323,7 +320,7 @@ div#frams {
   top: 970px;
 }
 
-.prof {
+.proff {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -704,7 +701,6 @@ div#frams {
   .imar,
   .imag,
   .footer,
-  .grid-medd,
   .img-medm {
     display: none;
   }
@@ -946,7 +942,6 @@ div#frams {
   }
 
   .but3 {
-    display: block;
     height: 58px;
     width: 100%;
     position: absolute;
@@ -970,18 +965,34 @@ div#frams {
     width: 80%;
   }
 
-  .grid-item2 > h2,
-  .grid-item5 > h2,
-  .grid-item3 > h2,
-  .grid-item6 > h2 {
+  .grid-item1 > button,
+  .grid-item2 > button,
+  .grid-item3 > button,
+  .grid-item4 > button,
+  .grid-item5 > button,
+  .grid-item6 > button {
     display: none;
   }
 
-  .grid-item2 > div > h2,
-  .grid-item5 > div > h2,
-  .grid-item3 > div > h2,
-  .grid-item6 > div > h2 {
-    display: block;
+  .grid-item1:hover .grid-medd,
+  .grid-item2:hover .grid-medd2,
+  .grid-item3:hover .grid-medd3,
+  .grid-item4:hover .grid-medd4,
+  .grid-item5:hover .grid-medd5,
+  .grid-item6:hover .grid-medd6 {
+    display: none;
+  }
+
+  .grid-item1:hover .but3,
+  .grid-item2:hover .but3,
+  .grid-item3:hover .but3,
+  .grid-item4:hover .but3,
+  .grid-item5:hover .but3,
+  .grid-item6:hover .but3 {
+    display: inline;
+  }
+
+  .proff {
     font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
