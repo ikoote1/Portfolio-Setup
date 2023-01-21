@@ -116,21 +116,6 @@ a:active {
   height: 124px;
   top: 90px;
   left: 24px;
-  animation: textAnimate 5s infinite alternate;
-}
-
-@keyframes textAnimate {
-  0% {
-    stroke-dasharray: 0 50%;
-    stroke-dashoffset: 20%;
-    fill: hsl(189, 68%, 75%);
-  }
-
-  100% {
-    stroke-dasharray: 50% 0;
-    stroke-dashoffstet: -20%;
-    fill: hsla(189, 68%, 75%, 0%);
-  }
 }
 
 .sub-t {
@@ -822,6 +807,7 @@ div#frams {
     0% {
       opacity: 0;
     }
+
     100% {
       opacity: 1;
     }
@@ -831,6 +817,7 @@ div#frams {
     0% {
       opacity: 0;
     }
+
     100% {
       opacity: 1;
     }
@@ -840,6 +827,7 @@ div#frams {
     0% {
       opacity: 0;
     }
+
     100% {
       opacity: 1;
     }
@@ -849,6 +837,7 @@ div#frams {
     0% {
       opacity: 0;
     }
+
     100% {
       opacity: 1;
     }
@@ -858,6 +847,7 @@ div#frams {
     0% {
       opacity: 0;
     }
+
     100% {
       opacity: 1;
     }
