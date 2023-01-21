@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&display=swap");
 
 .toolbar {
   position: absolute;
@@ -43,7 +43,7 @@
 
 .john-doe {
   position: absolute;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   width: 54px;
   height: 15px;
   right: 280px;
@@ -63,7 +63,7 @@
 }
 
 .illust {
-  background-image: url('./images/Illustration.svg');
+  background-image: url("./images/Illustration.svg");
   position: absolute;
   background-repeat: no-repeat;
   left: 60.37%;
@@ -104,7 +104,7 @@ a:active {
 }
 
 .title-hey {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
@@ -116,10 +116,25 @@ a:active {
   height: 124px;
   top: 90px;
   left: 24px;
+  animation: textAnimate 5s infinite alternate;
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset: 20%;
+    fill: hsl(189, 68%, 75%);
+  }
+
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: hsla(189, 68%, 75%, 0%);
+  }
 }
 
 .sub-t {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -138,7 +153,7 @@ a:active {
 }
 
 .txt {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -181,7 +196,7 @@ a:active {
 .multi {
   width: 327px;
   height: 10px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -309,7 +324,7 @@ div#frams {
 }
 
 .myrr {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -323,7 +338,7 @@ div#frams {
 }
 
 .proff {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -437,7 +452,7 @@ div#frams {
 }
 
 .abouts {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
@@ -673,7 +688,7 @@ div#frams {
 }
 
 .mask {
-  background-image: url('./images/Group.png');
+  background-image: url("./images/Group.png");
   position: absolute;
   background-repeat: no-repeat;
   left: 57.37%;
@@ -804,28 +819,48 @@ div#frams {
   }
 
   @keyframes fadein {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
   @-moz-keyframes fadein {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
   @-webkit-keyframes fadein {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
   @-o-keyframes fadein {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
   @-ms-keyframes fadein {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
   .head-med {
@@ -1046,7 +1081,7 @@ div#frams {
   }
 
   .proff {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
