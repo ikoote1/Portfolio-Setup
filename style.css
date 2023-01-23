@@ -1322,24 +1322,13 @@ div#frams {
     position: absolute;
     left: 1%;
     height: auto;
-    top: 40px;
-  }
-
+    top: 40px;}
   .multi {
     width: 90%;
-    left: 10px;
-  }
-
+    left: 10px; }
   .daily {
     width: 90%;
-    left: 10px;
-  }
-
-  .title-med {
-    gap: 15%;
-  }
-
-  .about > div > button {
-    top: 495px;
-  }
+    left: 10px; }
+  .title-med { gap: 15%;}
+  .about > div > button { top: 495px;}
 }
