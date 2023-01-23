@@ -42,7 +42,7 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo" href="https://ikoote1.github.io/Portfolio-Setup/" > Demo live</a>
 
 > Project ain't yet deployed.
 
