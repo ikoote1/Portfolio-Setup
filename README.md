@@ -27,11 +27,11 @@
 <details>
   <summary>Github</summary>
 </details>
+## Video Description of the project <a name="Video" href="https://www.loom.com/share/5105d97c56bc45adbcd6633f3da77ec2" > Video </a>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-<a name="Video description" href="[[https://ikoote1.github.io/Portfolio-Setup/](https://www.loom.com/share/5105d97c56bc45adbcd6633f3da77ec2)](https://www.loom.com/share/5105d97c56bc45adbcd6633f3da77ec2)" > Video description of the project</a>
 
 > Describe between 1-3 key features of the application.
 - **Github workflow**
