@@ -2,7 +2,7 @@
 
 .menu-p {
   width: 375px;
-  height: 755px;
+  height: 100vh;
   position: fixed;
   z-index: 2000;
   left: -100%;
@@ -15,7 +15,7 @@
 
 .menu-p.active {
   width: 375px;
-  height: 755px;
+  height: 100vh;
   position: fixed;
   z-index: 2000;
   left: 0;
