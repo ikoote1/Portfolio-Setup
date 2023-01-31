@@ -1,5 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&display=swap");
 
+.menu-p {
+  width: 375px;
+  height: 100vh;
+  position: fixed;
+  z-index: 2000;
+  left: -100%;
+  top: 0;
+  bottom: 57px;
+  background: #3c3a39;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+
+.menu-p.active {
+  width: 375px;
+  height: 100vh;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  bottom: 57px;
+  background: #3c3a39;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+
 .toolbar {
   position: absolute;
   width: 375px;
@@ -7,6 +33,50 @@
   left: 0;
   top: 0;
   background: #3c3a39;
+}
+
+.menu-Ru {
+  width: 327px;
+  height: 2px;
+  position: absolute;
+  left: 35px;
+  background: #6f6c6b;
+}
+
+.menu-r {
+  position: absolute;
+  width: 462px;
+  height: 628px;
+  left: -12px;
+  top: 92px;
+  list-style: none;
+}
+
+.menu-r a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-17 {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: 2px solid #67798e;
+}
+
+.menu-Ik {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #fff5e1;
 }
 
 .menu-med,
@@ -676,8 +746,6 @@ div#frams {
   background-image: url("./images/Group.png");
   position: absolute;
   background-repeat: no-repeat;
-  left: 57.37%;
-  right: -96.24%;
   top: 17%;
   bottom: 0.1%;
   color: #fff;
@@ -1322,13 +1390,18 @@ div#frams {
     position: absolute;
     left: 1%;
     height: auto;
-    top: 40px;}
+    top: 40px;
+  }
+
   .multi {
     width: 90%;
-    left: 10px; }
+    left: 10px;
+  }
+
   .daily {
     width: 90%;
-    left: 10px; }
-  .title-med { gap: 15%;}
-  .about > div > button { top: 495px;}
+    left: 10px;
+  }
+  .title-med { gap: 15%; }
+  .about > div > button { top: 495px; }
 }
