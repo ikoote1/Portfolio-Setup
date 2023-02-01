@@ -670,7 +670,8 @@ div#frams {
   position: absolute;
   bottom: 30px;
 }
-.error{
+
+.error {
   color: #ff6b00;
   font-weight: bold;
 }
@@ -696,6 +697,7 @@ div#frams {
   order: 1;
   flex-grow: 0;
 }
+
 #nams {
   width: 327px;
   height: 48px;
@@ -1480,6 +1482,7 @@ div#frams {
   #nam {
     width: 800px;
   }
+
   #nams {
     width: 800px;
   }
