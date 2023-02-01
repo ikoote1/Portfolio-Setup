@@ -3,11 +3,11 @@
 
 <div align="center">
 
-  <h3><b>TABLE OF CONTENT</b></h3>
+  <h3><b>PORTFOLIO-SETUP</b></h3>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
+<!-- PORTFOLIO-SETUP -->
 
 # 📗 Table of Contents
 
