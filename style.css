@@ -666,6 +666,11 @@ a:active {
   bottom: 30px;
 }
 
+.error {
+  color: #ff6b00;
+  font-weight: bold;
+}
+
 .inputs {
   display: flex;
   flex-direction: column;
@@ -674,6 +679,21 @@ a:active {
 }
 
 #nam {
+  width: 327px;
+  height: 48px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  border: #fff5e1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#nams {
   width: 327px;
   height: 48px;
   font-family: Inter, sans-serif;
@@ -1429,6 +1449,10 @@ a:active {
   }
 
   #nam {
+    width: 800px;
+  }
+
+  #nams {
     width: 800px;
   }
 
