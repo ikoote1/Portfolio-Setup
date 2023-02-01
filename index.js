@@ -231,9 +231,8 @@ modalsO.forEach((o) => {
 </div>
 `;
   modalCountT += 1;
-  });
-  
- 
+});
+
 // validation
 
 const form = document.querySelector('#acts');
@@ -250,3 +249,4 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
 
   validateEmail(form.elements.nam);
+});
