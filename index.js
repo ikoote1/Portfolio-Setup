@@ -119,7 +119,7 @@ function closeModal(i) {
   document.querySelector(`.modal-${i}`).style.display = 'none';
 }
 
-/* eslint-enable no-unused-vars */
+// validation
 
 const form = document.querySelector('#acts');
 const errorSpan = document.querySelector('.error');
