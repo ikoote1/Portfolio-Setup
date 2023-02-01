@@ -803,17 +803,18 @@ div#frams {
   flex-direction: row;
   position: relative;
   left: 15px;
+  padding-bottom: 20px;
 }
 
 .h-popD > h2 {
   width: 259px;
-  height: 82px;
+  height: 100%;
   position: relative;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
-  line-height: 0px;
+  line-height: 40px;
   color: #172b4d;
   top: 2px;
 }
@@ -822,23 +823,23 @@ div#frams {
   width: 14px;
   height: 14px;
   position: relative;
-  top: 20px;
+  top: 34px;
 }
 
-.pop-upD > div > ul {
+.pacDD {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0;
   gap: 10px;
-  width: auto;
-  height: 36px;
+  width: 90%;
+  height: 20px;
   list-style: none;
   position: relative;
   left: 15px;
 }
 
-.pop-upD > ul > li {
+.pacD > ul > li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -850,7 +851,7 @@ div#frams {
   align-items: center;
   padding: 10px 12px;
   width: auto;
-  height: 36px;
+  height: 20px;
   border: 1px solid #979493;
 }
 
@@ -1515,9 +1516,11 @@ div#frams {
     width: 1156px;
     height: 631px;
     position: fixed;
+    align-items: center;
+    align-self: center;
     align-content: center;
     margin: auto;
-    left: 2%;
+    left: 12%;
     background: #fff;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -1538,7 +1541,7 @@ div#frams {
     position: fixed;
     align-content: center;
     margin: auto;
-    left: 2%;
+    left: 12%;
     background: #fff;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -1572,7 +1575,7 @@ div#frams {
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 0px;
+    line-height: 20px;
     color: #172b4d;
     position: absolute;
     top: 1px;
@@ -1586,21 +1589,21 @@ div#frams {
     left: 90%;
   }
 
-  .pop-upD > ul {
+  .pacD > ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0;
     gap: 8px;
-    width: 294px;
+    width: 380px;
     height: 30px;
     list-style: none;
     position: relative;
-    top: 15px;
-    left: 24px;
+    top: 23px;
+    left: 27px;
   }
 
-  .pop-upD > ul > li {
+  .pacD > ul > li {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1621,7 +1624,7 @@ div#frams {
     height: auto;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 25px;
     position: relative;
     left: 24px;
     top: 60px;
@@ -1652,9 +1655,11 @@ div#frams {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 12px;
+    gap: 50px;
     position: relative;
     bottom: 0;
+    left: 3px;
+    width: 400px;
   }
 
   .btn-pop {
@@ -1668,11 +1673,21 @@ div#frams {
     text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
-    position: relative;
-    width: auto;
     height: 48px;
     border-color: #f55800;
     background: #f55800;
+  }
+
+  .btn-pop2 {
+    width: 134px;
+  }
+
+  .btn-pop2:hover {
+    background: #fff;
+  }
+
+  .btn-pop3 {
+    width: 159px;
   }
 }
 

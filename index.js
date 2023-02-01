@@ -17,7 +17,7 @@ document.querySelectorAll('.menu-r').forEach((n) => n.addEventListener('click', 
 
 const modalsObj = [
   {
-    modalTitle: 'Keeping track of hundreds  of components website',
+    modalTitle: 'Components website',
     modalList: ['css', 'html', 'Bootstrap', 'Ruby on rails'],
     modalImg: './images/Snapshoot Portfolio.png',
     modalText:
@@ -72,19 +72,19 @@ const modals = document.querySelector('.pop-upD');
 let modalCount = 1;
 
 modalsObj.forEach((o) => {
-
   let techStack = '';
 
   for (let i = 0; i < o.modalList.length; i += 1) techStack += `<li>${o.modalList[i]}</li>`;
 
   modals.innerHTML += `
   
-  <div style="z-index=19000" class="modal-${modalCount}">
+  <div style="z-index=19000" class="modal-${modalCount} pacD">
       <div class="h-popD">
+          <h2>${o.modalTitle}</h2>
           <h3>${o.modalTitle}</h3>
           <img style="z-index:20000" onClick="closeModal(${modalCount});" src="./images/Icon17.png" alt="">
       </div>
-      <ul>
+      <ul class="pacDD">
            ${techStack}
       </ul>
       <div class="details-popD">
@@ -92,9 +92,10 @@ modalsObj.forEach((o) => {
           <div class="pop-B">
               <p>${o.modalText}</p>
               <div class="btn-popD">
-                  <button type="button" class="btn-pop btn-pop2">See Live <img src="./images/Icon - Export.png"
+
+                  <button type="button" class="btn-pop btn-pop2" onclick="location.href='https://ikoote1.github.io/Portfolio-Setup/'">See Live <img src="./images/Icon - Export.png"
                           alt=""></button>
-                  <button type="button" class="btn-pop btn-pop3">See Source <img src="./images/Vectorpop.png"
+                  <button type="button" class="btn-pop btn-pop3" onclick="location.href='https://github.com/ikoote1/Portfolio-Setup.git'">See Source <img src="./images/Vectorpop.png"
                           alt=""></button>
               </div>
           </div>
