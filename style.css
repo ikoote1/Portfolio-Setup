@@ -670,6 +670,9 @@ div#frams {
   position: absolute;
   bottom: 30px;
 }
+.error{
+  color: rgb(103, 103, 189);
+}
 
 .inputs {
   display: flex;
