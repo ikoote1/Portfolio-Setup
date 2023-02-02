@@ -284,14 +284,14 @@ a:active {
   gap: 5px;
 }
 
-.g-item {
+.languages > li {
   box-sizing: border-box;
   border: 1px solid #8993a4;
   padding: 10px 12px;
   background: #fff;
 }
 
-div#frams {
+.frams {
   position: absolute;
   top: 1800px;
   width: 340px;
@@ -301,12 +301,7 @@ div#frams {
   padding: 10px;
 }
 
-.grid-item1,
-.grid-item2,
-.grid-item3,
-.grid-item4,
-.grid-item5,
-.grid-item6 {
+.grid-item3 {
   background-image: url(./images/Img\ Placeholders.png);
   font-size: 30;
   height: auto;
@@ -440,7 +435,7 @@ div#frams {
   height: 60px;
 }
 
-.g-item1 {
+.languagess > li {
   box-sizing: border-box;
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
@@ -1265,7 +1260,7 @@ div#frams {
     color: #f55800;
   }
 
-  div#frams {
+  .frams {
     position: absolute;
     top: 1680px;
     width: 1090px;
@@ -1303,30 +1298,15 @@ div#frams {
     width: 80%;
   }
 
-  .grid-item1 > button,
-  .grid-item2 > button,
-  .grid-item3 > button,
-  .grid-item4 > button,
-  .grid-item5 > button,
-  .grid-item6 > button {
+  .grid-item3 > button {
     display: none;
   }
 
-  .grid-item1:hover .grid-medd,
-  .grid-item2:hover .grid-medd2,
-  .grid-item3:hover .grid-medd3,
-  .grid-item4:hover .grid-medd4,
-  .grid-item5:hover .grid-medd5,
-  .grid-item6:hover .grid-medd6 {
+  .grid-item3:hover .grid-medd3 {
     display: none;
   }
 
-  .grid-item1:hover .but3,
-  .grid-item2:hover .but3,
-  .grid-item3:hover .but3,
-  .grid-item4:hover .but3,
-  .grid-item5:hover .but3,
-  .grid-item6:hover .but3 {
+  .grid-item3:hover .but3 {
     display: inline;
   }
 
@@ -1345,18 +1325,7 @@ div#frams {
     top: 100px;
   }
 
-  .grid-item1,
-  .grid-item4 {
-    background-image: url(./images/Img\ Placeholder2.png);
-  }
-
-  .grid-item2,
-  .grid-item5 {
-    background-image: url(./images/Img\ Placeholder3.png);
-  }
-
-  .grid-item3,
-  .grid-item6 {
+  .grid-item3 {
     background-image: url(./images/Img\ Placeholder4.png);
   }
 
@@ -1544,7 +1513,7 @@ div#frams {
     align-self: center;
     align-content: center;
     margin: auto;
-    left: 12%;
+    left: 9%;
     background: #fff;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
