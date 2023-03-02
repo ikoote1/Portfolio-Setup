@@ -17,39 +17,22 @@ document.querySelectorAll('.menu-r').forEach((n) => n.addEventListener('click', 
 
 const modalsObj = [
   {
-    modalTitle: 'Components website',
-    modalList: ['css', 'html', 'Bootstrap', 'Ruby on rails'],
-    modalImg: './images/Snapshoot Portfolio.png',
+    modalTitle: 'Conference Website',
+    modalList: ['CSS', 'Javascript', 'Ruby'],
+    modalImg: './images/book3.PNG',
     modalText:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      "This is Physics-and-Space-Science conference website with speakers and their scheduled time",
+      link:"https://ikoote1.github.io/Physics-and-Space-Science/",
+      liveLink:"https://github.com/ikoote1/Physics-and-Space-Science",
   },
   {
-    modalTitle: 'Data Dashboard Healthcare',
-    modalList: ['html', 'Bootstrap', 'Ruby'],
-    modalImg: './images/Snapshoot Portfolio.png',
+    modalTitle: 'The Awesome books',
+    modalList: ['CSS', 'Bootstrap', 'Javascript'],
+    modalImg: './images/book.PNG',
     modalText:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  },
-  {
-    modalTitle: 'Profesional Art Printing Data More',
-    modalList: ['html', 'Bootstrap', 'Ruby'],
-    modalImg: './images/Snapshoot Portfolio.png',
-    modalText:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  },
-  {
-    modalTitle: 'Website Protfolio',
-    modalList: ['html', 'Bootstrap', 'Ruby'],
-    modalImg: './images/Snapshoot Portfolio.png',
-    modalText:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  },
-  {
-    modalTitle: 'Data Dashboard Healthcare',
-    modalList: ['html', 'Bootstrap', 'Ruby'],
-    modalImg: './images/Snapshoot Portfolio.png',
-    modalText:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      "This is a website which sames books for the users. It allows books and the author names to be saved. Books can be deleted at all. It was developed using CSS, Bootstrap and javascript",
+      link:'https://ikoote1.github.io/Awesome-books-ES6/',
+      liveLink:"https://github.com/ikoote1/Awesome-books-ES6",
   },
   {
     modalTitle: 'Profesional Art Printing Data More',
@@ -57,6 +40,8 @@ const modalsObj = [
     modalImg: './images/Snapshoot Portfolio.png',
     modalText:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      link:'',
+      liveLink:"",
   },
   {
     modalTitle: 'Website Protfolio',
@@ -64,6 +49,35 @@ const modalsObj = [
     modalImg: './images/Snapshoot Portfolio.png',
     modalText:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      link:'',
+      liveLink:"",
+  },
+  {
+    modalTitle: 'Data Dashboard Healthcare',
+    modalList: ['html', 'Bootstrap', 'Ruby'],
+    modalImg: './images/Snapshoot Portfolio.png',
+    modalText:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      link:'',
+      liveLink:"",
+  },
+  {
+    modalTitle: 'Profesional Art Printing Data More',
+    modalList: ['html', 'Bootstrap', 'Ruby'],
+    modalImg: './images/Snapshoot Portfolio.png',
+    modalText:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      link:'',
+      liveLink:"",
+  },
+  {
+    modalTitle: 'Website Protfolio',
+    modalList: ['html', 'Bootstrap', 'Ruby'],
+    modalImg: './images/Snapshoot Portfolio.png',
+    modalText:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      link:'',
+      liveLink:"",
   },
 ];
 
@@ -92,11 +106,11 @@ modalsObj.forEach((o) => {
           <div class="pop-B">
               <p>${o.modalText}</p>
               <div class="btn-popD">
-
-                  <button type="button" class="btn-pop btn-pop2" onclick="location.href='https://ikoote1.github.io/Portfolio-Setup/'">See Live <img src="./images/Icon - Export.png"
-                          alt=""></button>
-                  <button type="button" class="btn-pop btn-pop3" onclick="location.href='https://github.com/ikoote1/Portfolio-Setup.git'">See Source <img src="./images/Vectorpop.png"
-                          alt=""></button>
+              <a href="${o.link}"><button type="button" style="z-index:20000" class="btn-pop btn-pop2">See Live <img src="./images/Icon - Export.png"
+                alt=""></button></a> 
+            <a href="${o.liveLink}"><button type="button" style="z-index:20000" class="btn-pop btn-pop3">See Source <img src="./images/Vectorpop.png"
+                alt=""></button></a> 
+                  
               </div>
           </div>
       </div>
@@ -123,11 +137,11 @@ function closeModal(i) {
 
 const modalsOb = [
   {
-    modalTitl: 'Components website',
-    modalLis: ['css', 'html', 'Bootstrap', 'Ruby'],
+    modalTitl: 'Conference Website',
+    modalLis: ['css', 'Javascript', 'Bootstrap', 'Ruby'],
     modalIm: './images/Img Placeholder.png',
     modalTex:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      "This is Physics-and-Space-Science conference website with speakers and their scheduled time.",
   }];
 const work = document.querySelector('.description-med');
 
@@ -171,16 +185,16 @@ modalsOb.forEach((o) => {
 const modalsO = [
 
   {
-    modalTitle: 'Data Dashboard Healthcare',
-    modalList: ['html', 'Bootstrap', 'Ruby'],
+    modalTitle: 'Conference Website',
+    modalList: ['CSS', 'Javascript', 'Ruby'],
     modalText:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      "This is Physics-and-Space-Science conference website with speakers and their scheduled time",
   },
   {
-    modalTitle: 'Profesional Art Printing Data More',
-    modalList: ['html', 'Bootstrap', 'Ruby'],
+    modalTitle: 'The Awesome books',
+    modalList: ['CSS', 'Bootstrap', 'Javascript'],
     modalText:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      "This is a website which sames books for the users. It allows books and the author names to be saved and deleted",
   },
   {
     modalTitle: 'Website Protfolio',
