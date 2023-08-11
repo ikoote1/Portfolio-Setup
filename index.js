@@ -17,24 +17,6 @@ document.querySelectorAll('.menu-r').forEach((n) => n.addEventListener('click', 
 
 const modalsObj = [
   {
-    modalTitle: 'Conference Website',
-    modalList: ['CSS', 'Javascript', 'Ruby'],
-    modalImg: './images/book3.PNG',
-    modalText:
-      "This is Physics-and-Space-Science conference website with speakers and their scheduled time",
-      link:"https://ikoote1.github.io/Physics-and-Space-Science/",
-      liveLink:"https://github.com/ikoote1/Physics-and-Space-Science",
-  },
-  {
-    modalTitle: 'The Awesome books',
-    modalList: ['CSS', 'Bootstrap', 'Javascript'],
-    modalImg: './images/book.PNG',
-    modalText:
-      "This is a website which sames books for the users. It allows books and the author names to be saved. Books can be deleted at all. It was developed using CSS, Bootstrap and javascript",
-      link:'https://ikoote1.github.io/Awesome-books-ES6/',
-      liveLink:"https://github.com/ikoote1/Awesome-books-ES6",
-  },
-  {
     modalTitle: 'Profesional Art Printing Data More',
     modalList: ['html', 'Bootstrap', 'Ruby'],
     modalImg: './images/Snapshoot Portfolio.png',
@@ -51,6 +33,24 @@ const modalsObj = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       link:'',
       liveLink:"",
+  },
+  {
+    modalTitle: 'Conference Website',
+    modalList: ['CSS', 'Javascript', 'Ruby'],
+    modalImg: './images/book3.PNG',
+    modalText:
+      "This is Physics-and-Space-Science conference website with speakers and their scheduled time",
+      link:"https://ikoote1.github.io/Physics-and-Space-Science/",
+      liveLink:"https://github.com/ikoote1/Physics-and-Space-Science",
+  },
+  {
+    modalTitle: 'The Awesome books',
+    modalList: ['CSS', 'Bootstrap', 'Javascript'],
+    modalImg: './images/book.PNG',
+    modalText:
+      "This is a website which sames books for the users. It allows books and the author names to be saved. Books can be deleted at all. It was developed using CSS, Bootstrap and javascript",
+      link:'https://ikoote1.github.io/Awesome-books-ES6/',
+      liveLink:"https://github.com/ikoote1/Awesome-books-ES6",
   },
   {
     modalTitle: 'Data Dashboard Healthcare',
