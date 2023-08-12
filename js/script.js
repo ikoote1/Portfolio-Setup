@@ -38,9 +38,9 @@ projectsInfo.push({
 projectsInfo.push({
   projectName: 'BudgetTrackr ',
   projectLang: ['Ruby on rails', 'CSS', 'Rspec'],
-  projectImgSrc: './images/transactions.png',
+  projectImgSrc: './images/transactions.PNG',
   projectImgAlt: 'Budget',
-  featureImg: './images/transactions.png',
+  featureImg: './images/transactions.PNG',
   projectshortDescription:
     'The budget tracker offers details and transactions for people. ',
   projectDescription:
@@ -90,9 +90,9 @@ projectsInfo.push({
 projectsInfo.push({
   projectName: 'Breweries',
   projectLang: ['Javascript', 'CSS', 'HTML'],
-  projectImgSrc: './images/breweries.png',
+  projectImgSrc: './images/breweries.PNG',
   projectImgAlt: 'Brewery',
-  featureImg: './images/breweries.png',
+  featureImg: './images/breweries.PNG',
   projectshortDescription:
     'Get your near by brewery through state search.',
   projectDescription: `This web application helps people to locate the nearby brewery across different states in United state.
