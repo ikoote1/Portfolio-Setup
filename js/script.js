@@ -24,7 +24,7 @@ const projectCards = document.querySelectorAll('.work-section .project-sample');
 
 projectsInfo.push({
   projectName: 'SummerWave Hotels',
-  projectLang: ['Ruby on rails','Rspec','React', 'CSS', 'API','Rswag'],
+  projectLang: ['Ruby on rails','Rspec','React', 'API'],
   projectImgSrc: './img/reserve.PNG',
   projectImgAlt: 'SummerWave Hotels',
   featureImg: './img/space.png',
