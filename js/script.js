@@ -27,7 +27,7 @@ projectsInfo.push({
   projectLang: ['Ruby on rails', 'Rspec', 'React', 'API'],
   projectImgSrc: './img/reserve.PNG',
   projectImgAlt: 'SummerWave Hotels',
-  featureImg: './img/space.png',
+  featureImg: './img/reserve.PNG',
   projectshortDescription:
     'SummerWave Hotels is a website to reserve rooms for the SummerWave Hotel chains. You can select available rooms from a gaphic list, or by clicking on the reserve menu.',
   projectDescription:
