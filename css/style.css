@@ -715,7 +715,7 @@ body {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-@media all and (min-width: 770px) {
+@media all and (min-width: 1000px) {
   .nav-bar .menu-bar {
     display: block;
   }
