@@ -24,14 +24,14 @@ const projectCards = document.querySelectorAll('.work-section .project-sample');
 
 projectsInfo.push({
   projectName: 'SummerWave Hotels',
-  projectLang: ['Ruby on rails','Rspec','React', 'API'],
+  projectLang: ['Ruby on rails', 'Rspec', 'React', 'API'],
   projectImgSrc: './img/reserve.PNG',
   projectImgAlt: 'SummerWave Hotels',
-  featureImg: './img/space.png',
+  featureImg: './img/reserve.PNG',
   projectshortDescription:
     'SummerWave Hotels is a website to reserve rooms for the SummerWave Hotel chains. You can select available rooms from a gaphic list, or by clicking on the reserve menu.',
   projectDescription:
-    "Welcome to the SummerWave Hotels! 🚀 Embark on an extraordinary journey by reserving tour rooms through our web application. Developed as a thrilling group project, At SummerWave Hotels, You can select available rooms from a gaphic list in the home page of the website, or you can just click on the reserve menu item and see the full list of available rooms and the city in which they are available..",
+    'Welcome to the SummerWave Hotels! 🚀 Embark on an extraordinary journey by reserving tour rooms through our web application. Developed as a thrilling group project, At SummerWave Hotels, You can select available rooms from a gaphic list in the home page of the website, or you can just click on the reserve menu item and see the full list of available rooms and the city in which they are available..',
   seeLive: 'https://space-travel-9ex2.onrender.com/',
   seeSource: 'https://github.com/dev89s/final-capstone-front-end',
 });
@@ -44,7 +44,7 @@ projectsInfo.push({
   projectshortDescription:
     'The budget tracker offers details and transactions for people. ',
   projectDescription:
-    "This is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
+    'This is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
   seeLive: 'https://budgettrack.onrender.com/',
   seeSource: 'https://github.com/ikoote1/BudgetTrackr',
 });

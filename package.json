@@ -1,10 +1,19 @@
 {
+  "name": "portfolio-setup",
+  "version": "1.0.0",
+  "description": "<a name=\"PORTFOLIO-SETUP\"></a>\r >PORTFOLIO-SETUP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.27.5",
-    "hint": "^2.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "hint": "^7.1.10",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
