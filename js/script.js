@@ -23,24 +23,24 @@ const firstProject = document.querySelector('.work-section .project1');
 const projectCards = document.querySelectorAll('.work-section .project-sample');
 
 projectsInfo.push({
-  projectName: 'Space',
-  projectLang: ['React', 'CSS', 'API'],
-  projectImgSrc: './img/space.png',
-  projectImgAlt: 'Space Hub',
+  projectName: 'SummerWave Hotels',
+  projectLang: ['Ruby on rails','Rspec','React', 'API'],
+  projectImgSrc: './img/reserve.PNG',
+  projectImgAlt: 'SummerWave Hotels',
   featureImg: './img/space.png',
   projectshortDescription:
-    'Space Hub is a webapp built with React and Redux, it fetches data from SpaceX API and Displays it. ',
+    'SummerWave Hotels is a website to reserve rooms for the SummerWave Hotel chains. You can select available rooms from a gaphic list, or by clicking on the reserve menu.',
   projectDescription:
-    "Welcome to the Space Travel Hub! 🚀 Embark on an extraordinary journey through the cosmos with our out-of-this-world web application. Developed as a thrilling group project, Space Travel Hub integrates SpaceX's powerful API to offer you an unrivaled experience in the realm of space exploration.",
+    "Welcome to the SummerWave Hotels! 🚀 Embark on an extraordinary journey by reserving tour rooms through our web application. Developed as a thrilling group project, At SummerWave Hotels, You can select available rooms from a gaphic list in the home page of the website, or you can just click on the reserve menu item and see the full list of available rooms and the city in which they are available..",
   seeLive: 'https://space-travel-9ex2.onrender.com/',
-  seeSource: 'https://github.com/ikoote1/space-travelers-hub',
+  seeSource: 'https://github.com/dev89s/final-capstone-front-end',
 });
 projectsInfo.push({
   projectName: 'BudgetTrackr ',
   projectLang: ['Ruby on rails', 'CSS', 'Rspec'],
-  projectImgSrc: './images/transactions.png',
+  projectImgSrc: './img/transactions.PNG',
   projectImgAlt: 'Budget',
-  featureImg: './images/transactions.png',
+  featureImg: './img/transactions.PNG',
   projectshortDescription:
     'The budget tracker offers details and transactions for people. ',
   projectDescription:
@@ -64,7 +64,7 @@ projectsInfo.push({
 projectsInfo.push({
   projectName: 'Physics-and-Space-Science conference',
   projectLang: ['html', 'css', 'javascript'],
-  projectImgSrc: './images/book3.PNG',
+  projectImgSrc: './img/book3.PNG',
   projectImgAlt: 'Physics-and-Space-Science conference',
   featureImg: './img/book3.PNG',
   projectshortDescription:
@@ -90,9 +90,9 @@ projectsInfo.push({
 projectsInfo.push({
   projectName: 'Breweries',
   projectLang: ['Javascript', 'CSS', 'HTML'],
-  projectImgSrc: './images/breweries.png',
+  projectImgSrc: './img/breweries.PNG',
   projectImgAlt: 'Brewery',
-  featureImg: './images/breweries.png',
+  featureImg: './img/breweries.PNG',
   projectshortDescription:
     'Get your near by brewery through state search.',
   projectDescription: `This web application helps people to locate the nearby brewery across different states in United state.
