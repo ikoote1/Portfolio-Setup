@@ -32,7 +32,7 @@ projectsInfo.push({
     'SummerWave Hotels is a website to reserve rooms for the SummerWave Hotel chains. You can select available rooms from a gaphic list, or by clicking on the reserve menu.',
   projectDescription:
     'Welcome to the SummerWave Hotels! 🚀 Embark on an extraordinary journey by reserving tour rooms through our web application. Developed as a thrilling group project, At SummerWave Hotels, You can select available rooms from a gaphic list in the home page of the website, or you can just click on the reserve menu item and see the full list of available rooms and the city in which they are available..',
-  seeLive: 'https://space-travel-9ex2.onrender.com/',
+  seeLive: 'https://summerwave-hotels.onrender.com/',
   seeSource: 'https://github.com/dev89s/final-capstone-front-end',
 });
 projectsInfo.push({
